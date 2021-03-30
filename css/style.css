@@ -7,14 +7,14 @@
 
 html {
   font-size: 10px;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: "Yantramanav", sans-serif;
   color: #eee;
 }
 
 body {
   width: 100%;
   height: 100%;
-  background: url('../images/sitebackground2.jpg') no-repeat center fixed;
+  background: url("../images/sitebackground2.jpg") no-repeat center fixed;
   background-size: cover;
 }
 
@@ -35,11 +35,9 @@ p {
 img {
   width: 100%;
   border-radius: 15px;
-  box-shadow: 2px 2px 5px rgb(40,44,52);
+  box-shadow: 2px 2px 5px rgb(40, 44, 52);
 }
 /* End Global */
-
-
 
 /* Start Reusable */
 .container {
@@ -57,8 +55,8 @@ img {
 
 .section-heading h1 {
   font-size: 3.5rem;
-  font-family: 'Satisfy', cursive;
-  color: rgba(255,255,255,.3);
+  font-family: "Satisfy", cursive;
+  color: rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-weight: 300;
   position: relative;
@@ -67,20 +65,20 @@ img {
 
 .section-heading h1::before,
 .section-heading h1::after {
-  content: '';
+  content: "";
   position: absolute;
-  bottom: -.5rem;
+  bottom: -0.5rem;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .section-heading h1::before {
   width: 20rem;
   height: 1px;
-  border-radius: .8rem;
-  opacity: .5;
-  bottom: -.3rem;
+  border-radius: 0.8rem;
+  opacity: 0.5;
+  bottom: -0.3rem;
 }
 
 /*.section-heading h1::after {
@@ -100,8 +98,6 @@ img {
 }
 /* End Reusable */
 
-
-
 /* Start Header */
 /*
 header {
@@ -116,19 +112,19 @@ header {
 .home {
   width: 100%;
   height: 100vh;
-  background-color: rgb(40,44,52,0.7);
+  background-color: rgb(40, 44, 52, 0.7);
 }
 
-.top-nav{
+.top-nav {
   width: 100%;
   height: 50vh;
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: rgb(54,104,121,0.7);
+  background-color: rgb(54, 104, 121, 0.7);
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
-  transition: all 650ms cubic-bezier(1,0,0,1);
+  transition: all 650ms cubic-bezier(1, 0, 0, 1);
 }
 
 .nav-list {
@@ -145,7 +141,7 @@ li {
 }
 
 .nav-link {
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 5rem;
   padding: 1rem;
 }
@@ -185,7 +181,7 @@ li {
   background: linear-gradient(to right, #ffe838, #f34979);
   width: 100%;
   height: 4px;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
 }
 
 .bar.half {
@@ -198,11 +194,11 @@ li {
 }
 
 .open .bar.start {
-  transform: rotate(-450deg) translateX(.8rem);
+  transform: rotate(-450deg) translateX(0.8rem);
 }
 
 .open .bar.end {
-  transform: rotate(-450deg) translateX(-.8rem);
+  transform: rotate(-450deg) translateX(-0.8rem);
 }
 
 .bar.end {
@@ -223,7 +219,7 @@ li {
 
 .landing-text h1 {
   font-size: 20rem;
-  font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
   background: linear-gradient(to top, #ffe838, #f34979); /* #fd57bf */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -235,10 +231,7 @@ li {
   font-size: 2rem;
   font-weight: 300;
 }
-
 /* End Header */
-
-
 
 /* Start About */
 #about {
@@ -258,9 +251,9 @@ li {
 }
 
 .about-heading h1 {
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 10rem;
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .about-heading h6 {
@@ -273,7 +266,6 @@ li {
   text-align: center;
 }
 
-
 .profile-img {
   margin-right: 5rem;
   width: 50rem;
@@ -284,13 +276,13 @@ li {
 }
 
 .about p:first-of-type:first-letter {
-  font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
   font-weight: bold;
   float: left;
-	font-size: 10em;
-	line-height: 1;
-	color: rgb(40,44,52,0.7);
-	margin: -.3em .3em -1em -.2em;
+  font-size: 10em;
+  line-height: 1;
+  color: rgb(40, 44, 52, 0.7);
+  margin: -0.3em 0.3em -1em -0.2em;
 }
 
 .social-media {
@@ -302,20 +294,27 @@ li {
   transition: color 650ms;
 }
 
+.fa-linkedin-in:hover {
+  color: rgb(72, 130, 189);
+}
+
+.fa-github:hover {
+  color: rgb(34, 39, 46);
+}
+
 .fa-facebook-f:hover {
-  color: rgb(68,105,176);
+  color: rgb(68, 105, 176);
+}
+
+.fa-twitter:hover {
+  color: rgb(29, 161, 242);
 }
 
 .fa-instagram:hover {
-  color: rgb(213,69,125);
+  color: rgb(213, 69, 125);
 }
 
-.fa-linkedin-in:hover {
-  color: rgb(147,195,213);
-}
 /* End About */
-
-
 
 /* Start Services */
 .my-skills {
@@ -344,7 +343,7 @@ li {
   width: 10rem;
   height: 10rem;
   border: 2px solid lightgrey;
-  background-color: rgb(31,103,131,0.5);
+  background-color: rgb(31, 103, 131, 0.5);
   margin-bottom: 2rem;
   display: flex;
   transform: rotate(45deg);
@@ -357,8 +356,6 @@ li {
   transform: rotate(-45deg);
 }
 /* End Services */
-
-
 
 /* Start Portfolio */
 .portfolio-item {
@@ -374,7 +371,6 @@ li {
 
 .portfolio-img {
   width: 100rem;
-
 }
 
 .portfolio-description h1 {
@@ -395,20 +391,18 @@ li {
   margin-top: 2.5rem;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: #76CAF0;
+  color: #76caf0;
   transition: color 650ms;
 }
 
 .portfolio-description .cta:hover {
-  color: rgb(245,139,116);
+  color: rgb(245, 139, 116);
 }
 /* End Portfolio */
 
-
-
 /* Start Contact */
 #contact {
-  background-color: rgb(40,44,52,0.7);
+  background-color: rgb(40, 44, 52, 0.7);
 }
 
 form {
@@ -427,12 +421,12 @@ textarea {
   padding: 1rem;
   margin-top: 5px;
   border: none;
-  outline-color: rgb(245,139,116);
+  outline-color: rgb(245, 139, 116);
 }
 
 input[type="submit"] {
   width: initial;
-  background-color: rgb(248,102,127);
+  background-color: rgb(248, 102, 127);
   color: #eee;
   padding: 1rem 2rem;
   border-radius: 0.8rem;
@@ -442,23 +436,20 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   color: #221e3f;
-  background-color: rgb(69,212,216);
+  background-color: rgb(69, 212, 216);
 }
 
 select {
   width: 30%;
 }
 
-
 /* End Contact */
-
-
 
 /* Start Footer */
 .copyright {
   width: 100%;
   text-align: center;
-  background-color: rgb(40,44,52);
+  background-color: rgb(40, 44, 52);
   padding: 2rem 0;
   position: relative;
 }
@@ -484,7 +475,7 @@ select {
 
 .copyright p {
   font-size: 2.5rem;
-  font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
   background: linear-gradient(to top, #ffe838, #f34979); /* #fd57bf */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -492,25 +483,23 @@ select {
 
 /* End Footer */
 
-
-
 /* Start Animation */
 @keyframes pulse {
-  0%{
-    box-shadow: 0 0 0 0 rgba(248,102,127,0.99);
+  0% {
+    box-shadow: 0 0 0 0 rgba(248, 102, 127, 0.99);
   }
-  80%{
-    box-shadow: 0 0 0 2rem rgba(248,102,127,0);
+  80% {
+    box-shadow: 0 0 0 2rem rgba(248, 102, 127, 0);
   }
-  100%{
-    box-shadow: 0 0 0  rgba(248,102,127,0);
+  100% {
+    box-shadow: 0 0 0 rgba(248, 102, 127, 0);
   }
 }
 /* End Animation */
 
 /* Media Queries */
 @media screen and (max-width: 1040px) {
-/*
+  /*
     body {
     background: rgb(54,86,112) no-repeat center fixed;
     background-size: cover;
@@ -519,17 +508,17 @@ for background image later
 */
 
   header {
-    background-color: rgb(40,44,52,0.6);
+    background-color: rgb(40, 44, 52, 0.6);
     width: 100%;
     height: 8em;
     position: fixed;
     z-index: 10000;
-}
+  }
 
   .menu-toggler {
     top: 2rem;
     right: 2rem;
-}
+  }
 
   .landing-text h1 {
     font-size: 15rem;
@@ -545,7 +534,7 @@ for background image later
 
   .top-nav {
     height: 100vh;
-    background-color: rgb(54,104,121);
+    background-color: rgb(54, 104, 121);
   }
 
   li {
@@ -604,13 +593,11 @@ for background image later
   .icon-container i {
     font-size: 4rem;
   }
-
 }
 
 @media only screen and (max-width: 600px) {
-
   body {
-    background: url('../images/sitebackground2mobile.jpg');
+    background: url("../images/sitebackground2mobile.jpg");
   }
 
   .top-nav {
@@ -660,5 +647,4 @@ for background image later
   .up {
     right: 2rem;
   }
-
 }
